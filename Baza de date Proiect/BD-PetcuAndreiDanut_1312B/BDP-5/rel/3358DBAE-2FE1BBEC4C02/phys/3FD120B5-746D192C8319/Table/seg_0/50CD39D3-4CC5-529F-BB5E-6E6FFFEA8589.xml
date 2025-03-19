@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Detalii_Client" directorySegmentName="seg_0" id="50CD39D3-4CC5-529F-BB5E-6E6FFFEA8589">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Email" id="13920277-0AF1-C0A7-E804-63EA62ED1BC0">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Varsta" id="8319A76B-001C-0351-5826-9F67FBF94867">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Client_ID_CLIENT" id="D4F3A4AF-5981-C1F2-D019-89B4C8DF12C2">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CNP" id="EA8FA4ED-63B3-7D37-1FAC-E3C3BCE76219">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Detalii_Client__IDX" id="39D3AC58-73EB-2310-E48E-0A567217D84E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Detalii_Client_Client_FK" id="1D290C94-C9E0-A72A-342D-0F6EF27BBE95">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

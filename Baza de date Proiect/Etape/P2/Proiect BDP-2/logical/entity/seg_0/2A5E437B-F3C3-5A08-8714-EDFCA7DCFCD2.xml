@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A5E437B-F3C3-5A08-8714-EDFCA7DCFCD2" name="Data_Programare">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:31:19 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PROGRAMARE" id="4F513FE2-4BC6-018B-60D5-D549D4E9BCC8">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:31:28 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<constraintName>DataProgramare_IDprogramare_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Programare" id="355E42A3-2618-AA7C-B577-681345853A23">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:32:41 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<constraintName>DataProgramare_Data_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MASINA" id="035E5E64-817E-1DC2-4F77-B8AFFFAB61F2">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:46:27 UTC</createdTime>
+<generatorID>86556A98-C536-60F2-EA08-709CFC65F37A</generatorID>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<referedAttribute>A5B8AD86-C8F0-C5A4-B7EE-B9C1D07A5776</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38081743-14B2-D5F6-9A23-BC293F15E32F" name="Data_Programare PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:31:33 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F513FE2-4BC6-018B-60D5-D549D4E9BCC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

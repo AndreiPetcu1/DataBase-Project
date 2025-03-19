@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A79F944D-C44F-E658-9ADE-10B84B8E4301" name="Detalii_Client">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:48:59 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CNP" id="DFEF23A5-D2F1-B5E0-0B89-3DDA523A003A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:49:11 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<constraintName>Detalii_Client_CNP_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Varsta" id="41A6F63A-AD93-74C2-0EE9-6DE89CB03F10">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:50:00 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<constraintName>Detalii_Client_Varsta_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>18</beginValue>
+<endValue>99</endValue>
+<description>Varsta_Client</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Email" id="CC2145FA-FA75-BDC5-4BDE-55D460E12AE2">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:50:39 UTC</createdTime>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<constraintName>Detalii_Client_Email_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;))"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENT" id="0264681C-9E7C-17E8-DAED-7DF64E26EDCD">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:54:39 UTC</createdTime>
+<generatorID>922F5909-A485-ECDC-09CB-CF930E7973E6</generatorID>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<referedAttribute>A8F565F7-FF66-96CB-ED50-067DD52EBEBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

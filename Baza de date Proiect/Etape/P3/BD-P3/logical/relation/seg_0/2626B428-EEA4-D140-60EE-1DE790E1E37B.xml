@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Masina_Mecanic_FK" directorySegmentName="seg_0" id="2626B428-EEA4-D140-60EE-1DE790E1E37B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:45:36 UTC</createdTime>
+<ownerDesignName>BD-P3</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<sourcePk>123E3E05-5944-3B17-3363-BBD3BAA099F7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>este reparata de</nameOnSource>
+<nameOnTarget>repara</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EE87ADA-33F7-8B76-0A52-5E1689B2BBBC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>489C25AD-3206-24B2-946B-84A13BB0207B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

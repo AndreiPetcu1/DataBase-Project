@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50CD39D3-4CC5-529F-BB5E-6E6FFFEA8589" name="Detalii_Client">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:58:53 UTC</createdTime>
+<generatorID>A79F944D-C44F-E658-9ADE-10B84B8E4301</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNP" id="EA8FA4ED-63B3-7D37-1FAC-E3C3BCE76219">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:58:53 UTC</createdTime>
+<generatorID>DFEF23A5-D2F1-B5E0-0B89-3DDA523A003A</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<constraintName>Detalii_Client_CNP_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Varsta" id="8319A76B-001C-0351-5826-9F67FBF94867">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:58:53 UTC</createdTime>
+<generatorID>41A6F63A-AD93-74C2-0EE9-6DE89CB03F10</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<constraintName>Detalii_Client_Varsta_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>18</beginValue>
+<endValue>99</endValue>
+<description>Varsta_Client</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Email" id="13920277-0AF1-C0A7-E804-63EA62ED1BC0">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:58:53 UTC</createdTime>
+<generatorID>CC2145FA-FA75-BDC5-4BDE-55D460E12AE2</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<constraintName>Detalii_Client_Email_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;))"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_ID_CLIENT" id="D4F3A4AF-5981-C1F2-D019-89B4C8DF12C2">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:58:53 UTC</createdTime>
+<generatorID>0264681C-9E7C-17E8-DAED-7DF64E26EDCD</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<associations>
+<colAssociation fkAssociation="7D83DB79-7C47-2207-9544-AE8AD790316D" referredColumn="6091541A-3FD3-6272-D6B4-51F2DDF1D7D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39D3AC58-73EB-2310-E48E-0A567217D84E" name="Detalii_Client__IDX">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:58:53 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>922F5909-A485-ECDC-09CB-CF930E7973E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D4F3A4AF-5981-C1F2-D019-89B4C8DF12C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D290C94-C9E0-A72A-342D-0F6EF27BBE95" name="Detalii_Client_Client_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:58:53 UTC</createdTime>
+<generatorID>922F5909-A485-ECDC-09CB-CF930E7973E6</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4F3A4AF-5981-C1F2-D019-89B4C8DF12C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

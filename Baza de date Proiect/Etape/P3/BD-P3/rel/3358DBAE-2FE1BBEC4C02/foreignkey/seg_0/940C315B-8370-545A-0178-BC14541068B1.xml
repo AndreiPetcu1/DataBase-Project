@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="940C315B-8370-545A-0178-BC14541068B1" containerWithKeyObject="753F4E01-32F1-B537-70D7-2E79E59B5268" localFKIndex="DFA0FB6F-6650-EFEB-1BD3-A5601F73E196" name="Problema_Masina_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:16 UTC</createdTime>
+<generatorID>5E4B2D3A-BEE5-B5F5-0365-8905D1E755ED</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<referredTableLongName>Masina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A67E9DD-F6B9-03E8-2B43-A885096027E9</referredTableID>
+<keyObject>EEC43F35-B4CF-DFF0-80AB-2DC44EAECD4F</keyObject>
+<referredKeyID>EEC43F35-B4CF-DFF0-80AB-2DC44EAECD4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MASINA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

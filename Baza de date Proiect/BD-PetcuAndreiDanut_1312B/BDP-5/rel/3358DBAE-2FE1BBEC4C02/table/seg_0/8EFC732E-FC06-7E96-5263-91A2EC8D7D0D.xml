@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EFC732E-FC06-7E96-5263-91A2EC8D7D0D" name="Mecanic">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>489C25AD-3206-24B2-946B-84A13BB0207B</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MECANIC" id="DC09BD2E-CF32-5B94-3B66-9866D6A37A86">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>C17E9FB1-2155-5E8C-7C78-4407CC8001BE</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<constraintName>Mecanic_IDmecanic_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="Rating_Mecanic" id="6906776D-4F79-C607-842A-DDA94C97914A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>55B11A1C-45B8-1233-3A0F-87C0DBEE2025</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<constraintName>Mecanic_RatingMecanic_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>10</endValue>
+<description>Rating mecanic</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Masina_ID_MASINA" id="A6CDD3B4-41E2-8502-8D96-161BD3F884AD">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:15 UTC</createdTime>
+<generatorID>834158D7-3512-3A94-89FF-5E5AE63268F6</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEEF3924-EBCD-592F-387B-A0AF85B1F82B" referredColumn="EA0838F4-CD69-AEEC-685B-C08E7CF7A2F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="037DF230-01BD-2CD5-17E0-FC9349FC9B1A" name="Mecanic_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>CC704CE3-C939-C257-EE71-C48D66754614</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC09BD2E-CF32-5B94-3B66-9866D6A37A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64844898-5925-19AB-19E5-717B1974290E" name="Mecanic__IDX">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:16 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2626B428-EEA4-D140-60EE-1DE790E1E37B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A6CDD3B4-41E2-8502-8D96-161BD3F884AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91DA4BA8-FC32-0BA1-5AFB-758F58E05922" name="Mecanic_Masina_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:16 UTC</createdTime>
+<generatorID>2626B428-EEA4-D140-60EE-1DE790E1E37B</generatorID>
+<ownerDesignName>BDP-5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6CDD3B4-41E2-8502-8D96-161BD3F884AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

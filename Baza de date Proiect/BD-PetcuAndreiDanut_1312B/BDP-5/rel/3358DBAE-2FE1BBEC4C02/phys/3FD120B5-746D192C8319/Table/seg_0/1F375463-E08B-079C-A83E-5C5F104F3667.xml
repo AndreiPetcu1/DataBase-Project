@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Client" directorySegmentName="seg_0" id="1F375463-E08B-079C-A83E-5C5F104F3667">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_CLIENT" id="6091541A-3FD3-6272-D6B4-51F2DDF1D7D8">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="Nume_Client" id="E9A55677-1DBB-7BA7-8B36-AD28C495B6B7">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Grad_Satisfactie_Client" id="F7B3877A-C1E4-7B01-5B15-DF473A5F3105">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Client_PK" id="3D5361B7-E975-F9DF-9260-3549488965D8">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

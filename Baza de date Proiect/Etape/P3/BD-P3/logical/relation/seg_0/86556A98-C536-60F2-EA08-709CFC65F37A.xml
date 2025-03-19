@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Masina_DataProgramare_FK" directorySegmentName="seg_0" id="86556A98-C536-60F2-EA08-709CFC65F37A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:46:27 UTC</createdTime>
+<ownerDesignName>BD-P3</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<sourcePk>123E3E05-5944-3B17-3363-BBD3BAA099F7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget> pentru</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EE87ADA-33F7-8B76-0A52-5E1689B2BBBC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2A5E437B-F3C3-5A08-8714-EDFCA7DCFCD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

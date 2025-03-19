@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Client_Masina_FK" directorySegmentName="seg_0" id="269103D9-0B91-BC17-E9C1-A52144555E99">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:38:21 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<engineerTo>
+<item key="3358DBAE-B428-37CF-75BF-2FE1BBEC4C02" value="true"/>
+</engineerTo>
+<sourcePk>829A3282-D17B-D673-FE07-E088F1C40D1F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>este detinuta de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B1848AB-64C8-4709-CC66-F58DB5E1DC5A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5EE87ADA-33F7-8B76-0A52-5E1689B2BBBC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

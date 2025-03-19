@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Mecanic" directorySegmentName="seg_0" id="8EFC732E-FC06-7E96-5263-91A2EC8D7D0D">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Rating_Mecanic" id="6906776D-4F79-C607-842A-DDA94C97914A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Masina_ID_MASINA" id="A6CDD3B4-41E2-8502-8D96-161BD3F884AD">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MECANIC" id="DC09BD2E-CF32-5B94-3B66-9866D6A37A86">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Mecanic__IDX" id="64844898-5925-19AB-19E5-717B1974290E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Mecanic_Masina_FK" id="91DA4BA8-FC32-0BA1-5AFB-758F58E05922">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Mecanic_PK" id="037DF230-01BD-2CD5-17E0-FC9349FC9B1A">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-12-08 10:45:27 UTC</createdTime>
+<ownerDesignName>BDP-5</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

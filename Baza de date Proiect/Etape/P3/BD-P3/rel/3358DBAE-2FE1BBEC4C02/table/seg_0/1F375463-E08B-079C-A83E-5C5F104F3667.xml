@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F375463-E08B-079C-A83E-5C5F104F3667" name="Client">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>5B1848AB-64C8-4709-CC66-F58DB5E1DC5A</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENT" id="6091541A-3FD3-6272-D6B4-51F2DDF1D7D8">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>A8F565F7-FF66-96CB-ED50-067DD52EBEBE</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<constraintName>Client_IdClient_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume_Client" id="E9A55677-1DBB-7BA7-8B36-AD28C495B6B7">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>F5C29A23-D913-1AE2-EAFC-CF8CCE07F10B</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<constraintName>Client_NumeClient_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad_Satisfactie_Client" id="F7B3877A-C1E4-7B01-5B15-DF473A5F3105">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>67C02B92-9F6D-C48E-820F-5CC8C0E7268C</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<constraintName>Client_GradSatisfactie_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>10</endValue>
+<description>Grad de satisfactie</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D5361B7-E975-F9DF-9260-3549488965D8" name="Client_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>829A3282-D17B-D673-FE07-E088F1C40D1F</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6091541A-3FD3-6272-D6B4-51F2DDF1D7D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

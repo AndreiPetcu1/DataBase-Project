@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48F86715-29C7-5D6A-A915-C1446A929874" name="Data_Programare">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>2A5E437B-F3C3-5A08-8714-EDFCA7DCFCD2</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROGRAMARE" id="05B42513-28D6-86EA-2F2B-D21C8FD68D1B">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>4F513FE2-4BC6-018B-60D5-D549D4E9BCC8</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<constraintName>DataProgramare_IDprogramare_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Programare" id="DCA1F719-BE04-3407-81AF-8F9D1F7C33A1">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>355E42A3-2618-AA7C-B577-681345853A23</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<constraintName>DataProgramare_Data_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masina_ID_MASINA" id="5509F348-7541-3C8F-95AB-0A1C0BC7A22E">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:15 UTC</createdTime>
+<generatorID>035E5E64-817E-1DC2-4F77-B8AFFFAB61F2</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99E0230B-BCE3-52FF-7302-083A0308C2C2" referredColumn="EA0838F4-CD69-AEEC-685B-C08E7CF7A2F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85247F9A-A90F-5155-B02B-1E54D1E8F211" name="Data_Programare_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-10-27 15:33:57 UTC</createdTime>
+<generatorID>38081743-14B2-D5F6-9A23-BC293F15E32F</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05B42513-28D6-86EA-2F2B-D21C8FD68D1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC7F38C5-4EB0-7DBD-1DED-E29A3781E622" name="Data_Programare__IDX">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:16 UTC</createdTime>
+<ownerDesignName>BD-P3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>86556A98-C536-60F2-EA08-709CFC65F37A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5509F348-7541-3C8F-95AB-0A1C0BC7A22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09E3A240-5A3B-67D1-1B2B-F44ADFC2FC4D" name="Data_Programare_Masina_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:16 UTC</createdTime>
+<generatorID>86556A98-C536-60F2-EA08-709CFC65F37A</generatorID>
+<ownerDesignName>BD-P3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5509F348-7541-3C8F-95AB-0A1C0BC7A22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

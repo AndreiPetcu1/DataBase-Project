@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99E0230B-BCE3-52FF-7302-083A0308C2C2" containerWithKeyObject="48F86715-29C7-5D6A-A915-C1446A929874" localFKIndex="09E3A240-5A3B-67D1-1B2B-F44ADFC2FC4D" name="Data_Programare_Masina_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2024-11-10 18:47:16 UTC</createdTime>
+<generatorID>86556A98-C536-60F2-EA08-709CFC65F37A</generatorID>
+<ownerDesignName>Proiect BDP-2</ownerDesignName>
+<referredTableLongName>Masina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A67E9DD-F6B9-03E8-2B43-A885096027E9</referredTableID>
+<keyObject>EEC43F35-B4CF-DFF0-80AB-2DC44EAECD4F</keyObject>
+<referredKeyID>EEC43F35-B4CF-DFF0-80AB-2DC44EAECD4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MASINA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
